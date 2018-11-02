@@ -88,6 +88,6 @@ function renderElementDescriptions(port, descriptions) {
     };
     list.appendChild(item);
   });
-  outputStatus.textContent = "Click on any item to remove the element and its descendants:";
+  outputStatus.textContent = "Click on any item to Send it to Boostnote";
   outputStatus.appendChild(list);
 }

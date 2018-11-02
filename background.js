@@ -3,8 +3,8 @@
 var popupParameters;
 
 browser.menus.create({
-  id: "remove_element",
-  title: "Remove element",
+  id: "send_to_boostnote",
+  title: "Send to Boostnote",
   documentUrlPatterns: ["https://*/*", "http://*/*"],
   contexts: ["audio", "editable", "frame", "image", "link", "page", "password", "video"],
 });

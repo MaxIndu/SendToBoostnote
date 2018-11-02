@@ -1,6 +1,6 @@
 {
-    "name": "Remove element on click",
-    "description": "Adds a context menu item that shows a panel upon click, from where you can choose to remove the clicked element.",
+    "name": "Send to Boostnote",
+    "description": "Send the current selection of the web page into the Boostnote.",
     "version": "1",
     "manifest_version": 2,
     "background": {

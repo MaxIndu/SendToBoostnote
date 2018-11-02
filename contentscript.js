@@ -16,14 +16,14 @@
         if (element) highlightElement(element);
         else removeHighlights();
       } else if (msg.action === "removeElement") {
-        let element = targetElements[msg.elementIndex];
+        /*let element = targetElements[msg.elementIndex];
         if (element) {
           // When an element is removed, all of its descendants are removed too.
           // Update the UI, to show all nodes starting from the parent element.
           let parentElement = element.parentElement;
           element.remove();
           setTargetElement(parentElement);
-        }
+        }*/
       }
     });
     port.onDisconnect.addListener(() => {
